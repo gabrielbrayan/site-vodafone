@@ -78,7 +78,7 @@ main > section.imagem {
 }
 
 main > section#img01 {
-background-image: url('../imagens/vodafone.png');
+background-image: url('../imagens/vodafone\ \(1\).png');
 background-position: center bottom;
 height: 900px;
 }
@@ -150,19 +150,31 @@ form > input[type=submit]:hover {
   background-color: #812520;
 }
 
-section.comercial {
-  height: 400px;
-
+main > section.imagem03 {
+  background-color: #EFEFEF;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: black;
+  box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.034);
+  background-size: auto;
+  background-attachment: local;
+  background-repeat: no-repeat;
+  background-position: right center;
 }
 
-section.comercial > h1 {
+main > section#img03 {
+  height: 600px;
+  background-color: #EFEFEF;
+  background-image: url(../imagens/imagem.png);
+}
+
+section.imagem03 > h1 {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 3em;
   font-weight: 400;
   text-indent: 15%;
 }
 
-section.comercial > p {
+section.imagem03 > p {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: black;
   width: 600px;
@@ -173,15 +185,65 @@ section.comercial > p {
   text-indent: 0;
 }
 
-section.comercial > p.forte {
+section.imagem03 > p.forte {
   font-weight: bold;
+}
+
+
+
+main > section.imagem02 {
+  background-color: #6B1814;
+  color: white;
+  box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.034);
+  background-size: cover;
+  
+  background-repeat: no-repeat;
+}
+
+section.imagem02 > h2 {
+  text-indent: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 2.5em;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+section.imagem02 > p {
+  text-indent: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #fff;
+  font-weight: 300;
+  font-size: 1.3em;
+  text-shadow: 1px 1px 1px black;
+  margin-top: 50px;
 }
 
 main > section#img02 {
   background-image: url('../imagens/vodafone\ 2.png');
   height: 800px;
-  margin-top: 50px;
+  margin-top: 0;
   background-position: right bottom;
+  }
+
+  div#formulario2{
+    text-align: left;
+    margin-top: 50px;
+  }
+
+  div#formulario2 > form > input[type=submit] {
+    display: block;
+    margin: 0;
+    margin-top: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont,  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    width: 200px;
+    height: 50px;
+    background-color: #E63F36;
+    color: white;
+    border-radius: 25px;
+    border: none;
+  
   }
 
 
