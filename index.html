@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/style.css">
+    <title>Oferta Flash</title>
+</head>
+<body>
+    <header>
+  <div class="countdown-container">
+    <h1>Esta oferta <strong>termina</strong> em:</h1>
+    <div id="countdown">
+      <div id="days" class="countdown-item">
+        <span id="days-number"></span>
+        <span class="countdown-label">DIAS</span>
+      </div>
+      <div id="hours" class="countdown-item">
+        <span id="hours-number"></span>
+        <span class="countdown-label">HORAS</span>
+      </div>
+      <div id="minutes" class="countdown-item">
+        <span id="minutes-number"></span>
+        <span class="countdown-label">MIN.</span>
+      </div>
+      <div id="seconds" class="countdown-item">
+        <span id="seconds-number"></span>
+        <span class="countdown-label">SEG.</span>
+      </div>
+  <script src="script.js"></script>
+    </header>
+    
+    <main>
+     <section class="imagem" id="img01">
+     <h2>Oferta de TV em planos selecionados</h2>
+     <p>PACOTES TV NET VOZ</p>
+     </section>
+     
+     <section class="branco">
+      
+      <div id="formulario">
+        <h3>Teste a cobertura na sua morada e descubra as
+          ofertas exclusivas que temos para si</h3>
+        <form action="cadastro.php" method="post" autocomplete="on">
+        
+        
+          <div class="campo">
+            <input type="number" name="telefone" id="itelefone" placeholder="telemóvel" required minlength="9" maxlength="12">
+          </div>
+          <div class="campo">
+            <input type="number" name="zipcode" id="izipcode" placeholder="código postal" required maxlength="8">
+          </div>
+          <input type="submit" value="Enviar">
+        </form>
+      </div>
+     </section>
+
+     <section class="comercial">
+      <h1>Comercial autorizada</h1>
+      <p>Acreditamos que o futuro vai trazer-nos o tempo para o que realmente importa. Para estarmos ainda mais ligados ao mundo e ao que gostamos.</p> <br>
+
+        <p>Para construirmos relações mais fortes e podermos estar em todo o lado no mesmo instante.</p> <br>
+        
+        <p>Nossa equipa comercial irá lhe auxiliar em todo o processo de adesão de forma profissional e segura, 100% online! Além de tratar da portabilidade dos vossos números e recisão com a vossa operadora.</p> <br>
+        
+        
+          <p class="forte">Estás pronto para o futuro?</p>
+        
+     </section>
+
+     <section class="imagem" id="img02">
+
+     </section>
+    </main>
+</body>
+</html>
