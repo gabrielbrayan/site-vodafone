@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
   const secondsElement = document.getElementById('seconds-number');
 
   function updateCountdown() {
-    const targetDate = new Date('2024-04-01T23:59:59').getTime();
+    const targetDate = new Date('2024-04-10T23:59:59').getTime();
     const currentDate = new Date().getTime();
     const difference = targetDate - currentDate;
 
