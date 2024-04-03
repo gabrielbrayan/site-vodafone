@@ -3,6 +3,11 @@
 /* Versão para mobile 680px*/
 
 @media (max-width: 680px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    
     header {
         height: 40px;
     }
@@ -59,8 +64,9 @@
     }
 
     section.imagem03 > h1 {
-        font-size: 2em;
-        margin-top: 20px;
+        font-size: 1.8em;
+        text-indent: 15%;
+        margin: auto;
     }
     
     section.imagem03 > p{
