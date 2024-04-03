@@ -3,6 +3,39 @@
 /* Versão para mobile 680px*/
 
 @media (max-width: 680px) {
+    header {
+        height: 40px;
+    }
+    
+    div.countdown-container > h1 {
+        font-size: 1.3em;
+    }
+    
+    .countdown-label {
+        font-size: 0.4em;
+        color: #E63F36; /* Alterado para vermelho */
+      }
+      
+      span#days-number {
+        font-size: 1em;
+        font-weight: bold;
+      }
+      
+      span#hours-number {
+        font-size: 1em;
+        font-weight: bold;
+      }
+      
+      span#minutes-number {
+        font-size: 1em;
+        font-weight: bold;
+      }
+      
+      span#seconds-number {
+        font-size: 1em;
+        font-weight: bold;
+      }
+    
     main{
       margin-top: 30px;
     }
@@ -41,7 +74,8 @@
      section.imagem03 {
         max-width: 500px;
         max-height: 1200px;
-        background: none;
+        background-size: contain;
+        background-attachment: fixed;
         
         
     }
