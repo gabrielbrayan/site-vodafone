@@ -65,7 +65,7 @@
 
     section.imagem03 > h1 {
         font-size: 1.8em;
-        text-indent: 15%;
+        text-indent: 13%;
         margin: auto;
     }
     
@@ -73,7 +73,7 @@
         font-size: 1em;
         line-height: 1em;
         text-align: center;
-        margin-left: 17px;
+        margin-left: 10px;
         width: 350px;
     }
 
