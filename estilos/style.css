@@ -231,7 +231,7 @@ section.imagem02 > p {
 
 main > section#img02 {
   background-image: url('../imagens/vodafone\ 2.png');
-  background-size: contain;
+  background-size: 99vw;
   height: 800px;
   margin-top: 0;
   background-position: right bottom;
